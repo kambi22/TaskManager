@@ -1,0 +1,76 @@
+#root {
+  width: 100%;
+  text-align: center;
+  height: 100Vh;
+
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.w-full{
+  width: 100%;
+}
+.form{
+  max-width: 600px;
+  min-width: 300px;
+}
+
+
+.ColoredLight {
+  background-color: #5ba5f5;
+  color: rgb(252, 247, 232);
+}
+
+.ColoredDark {
+  background-color: #1f1f20 !important;
+  color: rgb(252, 247, 232);
+
+}
+
+.nav-link.ColoredLight {
+  background-color: #5ba5f5;
+  color: rgb(252, 247, 232);
+
+  margin-right: 6px;
+}
+
+.nav-link.ColoredDark {
+  background-color: #1f1f20 !important;
+  color: rgb(252, 247, 232);
+}
+
+
+.nav-link.ColoredLight:hover {
+  color: rgb(252, 247, 232);
+  /* Ensure color remains white */
+}
+
+.nav-link.ColoredDark:hover {
+  color: rgb(252, 247, 232);
+  /* Ensure color remains white */
+}
+
+.nav-link.ColoredLight:focus {
+  color: rgb(241, 238, 228)
+     /* Ensure color remains white */
+}
+
+.nav-link.ColoredDark:focus {
+  color: rgb(203, 200, 191);
+  /* Ensure color remains white */
+}
+
+
+.ColoredLight .MuiIconButton-root {
+  color: rgb(252, 247, 232);
+}
+
+.ColoredDark .MuiIconButton-root {
+  color: rgb(252, 247, 232);
+}
