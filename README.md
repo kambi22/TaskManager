@@ -38,7 +38,7 @@ npm run dev  # Start development server
 ```sh
 cd server  # Navigate to backend folder
 npm install  # Install dependencies
-node server.js  # Start backend server
+node index.js  # Start backend server
 ```
 
 ## API Endpoints
@@ -65,8 +65,7 @@ node server.js  # Start backend server
 │   └── ...
 │
 ├── server   # Node.js backend
-│   ├── models
-│   ├── routes
+│   ├── node_modules
 │   ├── server.js
 │   ├── package.json
 │   └── ...
