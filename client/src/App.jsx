@@ -7,7 +7,7 @@ const App = () => {
   return (
     
       <CustomThemeProvider>
-        <div className=" w-full">
+        <div className=" w-full App" >
         <Routing/>
         </div>
       </CustomThemeProvider>
